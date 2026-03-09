@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%; /* #0a0a0a */
+    --foreground: 51 100% 50%; /* Gold #FFD700 */
+    
+    --card: 0 100% 15%; /* Dark red tint */
+    --card-foreground: 51 100% 50%;
+    
+    --popover: 0 0% 4%;
+    --popover-foreground: 51 100% 50%;
+    
+    /* Deep Red #8B0000 */
+    --primary: 0 100% 27.3%;
+    --primary-foreground: 51 100% 50%;
+    
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 51 100% 50%;
+    
+    --muted: 0 0% 15%;
+    --muted-foreground: 51 50% 70%;
+    
+    /* Gold #FFD700 */
+    --accent: 50.6 100% 50%;
+    --accent-foreground: 0 0% 4%;
+    
+    --destructive: 0 100% 27.3%;
+    --destructive-foreground: 51 100% 50%;
+    
+    --border: 50.6 100% 50%; /* Gold border */
+    --input: 0 0% 15%;
+    --ring: 50.6 100% 50%;
+    
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 51 100% 50%;
+    
+    --card: 0 100% 10%; 
+    --card-foreground: 51 100% 50%;
+    
+    --popover: 0 0% 4%;
+    --popover-foreground: 51 100% 50%;
+    
+    --primary: 0 100% 27.3%;
+    --primary-foreground: 51 100% 50%;
+    
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 51 100% 50%;
+    
+    --muted: 0 0% 15%;
+    --muted-foreground: 51 50% 70%;
+    
+    --accent: 50.6 100% 50%;
+    --accent-foreground: 0 0% 4%;
+    
+    --destructive: 0 100% 27.3%;
+    --destructive-foreground: 51 100% 50%;
+    
+    --border: 50.6 100% 50%;
+    --input: 0 0% 15%;
+    --ring: 50.6 100% 50%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-white;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 0.05em;
+  }
+}
+
+@layer utilities {
+  .text-gold-glow {
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.5), 0 0 15px rgba(255, 215, 0, 0.3), 0 0 25px rgba(255, 215, 0, 0.2);
+  }
+
+  .gold-glow {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3), 0 0 20px rgba(255, 215, 0, 0.2), inset 0 0 10px rgba(255, 215, 0, 0.1);
+  }
+
+  .gold-glow-strong {
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0.3), inset 0 0 15px rgba(255, 215, 0, 0.2);
+  }
+  
+  .medieval-shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 215, 0, 0.2);
+  }
+
+  .medieval-pattern {
+    background-image: radial-gradient(rgba(255, 215, 0, 0.05) 2px, transparent 2px), radial-gradient(rgba(255, 215, 0, 0.05) 2px, transparent 2px);
+    background-size: 32px 32px;
+    background-position: 0 0, 16px 16px;
+  }
+}
