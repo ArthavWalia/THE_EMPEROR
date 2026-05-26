@@ -19,7 +19,7 @@ const TheEmpireHero = () => {
         >
           <div className="absolute inset-0 rounded-full gold-glow-strong blur-xl opacity-50"></div>
           <img 
-            src="https://horizons-cdn.hostinger.com/031b1abc-8806-415a-9728-463fb12ee281/aee7ca1ee879517e38d7b90234701f1d.png" 
+            src="https://i.postimg.cc/52BhB3fp/image-removebg-preview.png" 
             alt="The Empire Gold Shield Logo" 
             className="w-48 h-48 md:w-64 md:h-64 object-contain relative z-10 drop-shadow-[0_0_15px_rgba(255,215,0,0.6)]"
           />
