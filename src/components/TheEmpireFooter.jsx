@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Twitter, MessageCircle, Youtube } from 'lucide-react';
+import { Shield } from 'lucide-react';
 
 const TheEmpireFooter = () => {
   return (
@@ -19,17 +19,6 @@ const TheEmpireFooter = () => {
             <p className="text-gray-300 font-['Cormorant_Garamond'] text-xl max-w-sm leading-relaxed mb-8 italic">
               A sanctuary for honorable gamers seeking legendary free titles and the fellowship of true brethren.
             </p>
-            <div className="flex items-center gap-5">
-              <a href="#" className="w-12 h-12 rounded-full border border-[#FFD700]/50 bg-[#8B0000]/20 flex items-center justify-center text-[#FFD700] hover:bg-[#8B0000] hover:text-white hover:border-[#FFD700] gold-glow transition-all">
-                <MessageCircle className="w-6 h-6" />
-              </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-[#FFD700]/50 bg-[#8B0000]/20 flex items-center justify-center text-[#FFD700] hover:bg-[#8B0000] hover:text-white hover:border-[#FFD700] gold-glow transition-all">
-                <Twitter className="w-6 h-6" />
-              </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-[#FFD700]/50 bg-[#8B0000]/20 flex items-center justify-center text-[#FFD700] hover:bg-[#8B0000] hover:text-white hover:border-[#FFD700] gold-glow transition-all">
-                <Youtube className="w-6 h-6" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
