@@ -76,7 +76,7 @@ const AboutTheEmpire = () => {
               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1605806616949-1e87b487cb2a')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
               <div className="w-full h-full rounded-t-full border-2 border-[#FFD700]/50 relative flex flex-col items-center justify-center text-center p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
                  <img 
-                  src="https://horizons-cdn.hostinger.com/031b1abc-8806-415a-9728-463fb12ee281/aee7ca1ee879517e38d7b90234701f1d.png" 
+                  src="https://i.postimg.cc/52BhB3fp/image-removebg-preview.png" 
                   alt="Empire Crest" 
                   className="w-32 h-32 opacity-80 mb-6 drop-shadow-[0_0_10px_rgba(255,215,0,0.5)]"
                  />
