@@ -49,10 +49,10 @@ const CommunityHighlights = () => {
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10 mb-20">
-          <StatBox icon={Shield} value="1,222+" label="Loyal Citizens" delay={0} />
-          <StatBox icon={Castle} value="100+" label="Treasures Shared" delay={0.2} />
+          <StatBox icon={Shield} value="4,000+" label="Loyal Citizens" delay={0} />
+          <StatBox icon={Castle} value="150+" label="Treasures Shared" delay={0.2} />
           <StatBox icon={Flame} value="24/7" label="Eternal Watch" delay={0.4} />
-          <StatBox icon={ScrollText} value="10+" label="Weekly Edicts" delay={0.6} />
+          <StatBox icon={ScrollText} value="800+" label="Weekly Edicts" delay={0.6} />
         </div>
 
         <motion.div 
