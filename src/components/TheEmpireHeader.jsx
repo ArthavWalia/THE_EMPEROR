@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Shield } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const TheEmpireHeader = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,7 +45,7 @@ const TheEmpireHeader = () => {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-3 group">
-          <Shield className="w-8 h-8 text-[#FFD700] group-hover:text-white transition-colors duration-300 drop-shadow-[0_0_8px_rgba(255,215,0,0.5)]" />
+          <img src="https://i.postimg.cc/52BhB3fp/image-removebg-preview.png" alt="The Empire Logo" className="w-8 h-8 group-hover:brightness-125 transition-all duration-300 drop-shadow-[0_0_8px_rgba(255,215,0,0.5)]" />
           <span className="text-2xl font-bold font-['Cinzel_Decorative'] tracking-widest text-[#FFD700] text-gold-glow">
             THE EMPIRE
           </span>
@@ -67,7 +67,7 @@ const TheEmpireHeader = () => {
           ))}
           <a 
             href="#join"
-            className="px-6 py-2 rounded bg-[#8B0000] border border-[#FFD700]/50 text-[#FFD700] font-['Cinzel_Decorative'] text-sm font-bold tracking-wider hover:bg-[#600000] hover:border-[#FFD700] hover:text-white gold-glow transition-all duration-300 uppercase"
+            className="px-6 py-2 rounded bg-[#8B0000] border border-[#FFD700]/50 text-[#FFD700] font-['Cinzel_Decorative'] text-sm font-bold tracking-wider hover:bg-[#600000] hover:border-[#FFD700] shadow-lg"
           >
             Pledge Fealty
           </a>
