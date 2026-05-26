@@ -36,7 +36,7 @@ const JoinCTA = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
             <motion.a
-              href="https://discord.gg/QbxR3FtT"
+              href="https://discord.gg/TcxyjX85Xy"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="relative group px-12 py-5 bg-[#8B0000] border-2 border-[#FFD700] text-[#FFD700] font-['Cinzel_Decorative'] text-xl font-black uppercase tracking-widest overflow-hidden transition-all flex items-center justify-center w-full sm:w-auto gold-glow-strong"
