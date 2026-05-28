@@ -5,6 +5,7 @@ import TheEmpireHero from '@/components/TheEmpireHero';
 import AboutTheEmpire from '@/components/AboutTheEmpire';
 import BenefitsCards from '@/components/BenefitsCards';
 import CommunityHighlights from '@/components/CommunityHighlights';
+import DownloadSection from '@/components/DownloadSection';
 import JoinCTA from '@/components/JoinCTA';
 import TheEmpireFooter from '@/components/TheEmpireFooter';
 
@@ -23,6 +24,7 @@ function HomePage() {
           <AboutTheEmpire />
           <BenefitsCards />
           <CommunityHighlights />
+          <DownloadSection />
           <JoinCTA />
         </main>
         <TheEmpireFooter />
