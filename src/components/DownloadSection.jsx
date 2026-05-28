@@ -4,7 +4,7 @@ import { Download } from 'lucide-react';
 
 const DownloadSection = () => {
   return (
-    <section className="py-16 relative bg-[#050505] border-y border-[#FFD700]/20">
+    <section className="py-8 relative bg-[#050505] border-y border-[#FFD700]/20">
       <div className="absolute inset-0 medieval-pattern opacity-10" />
       
       <div className="max-w-4xl mx-auto px-6 relative z-10">
@@ -23,14 +23,14 @@ const DownloadSection = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="h-28 md:h-32 mx-auto mb-6 drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
+            className="h-28 md:h-32 mx-auto mb-4 drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
           />
           
-          <h2 className="text-5xl md:text-6xl font-black text-[#FFD700] font-['Cinzel_Decorative'] uppercase mb-4 text-gold-glow tracking-widest">
+          <h2 className="text-5xl md:text-6xl font-black text-[#FFD700] font-['Cinzel_Decorative'] uppercase mb-2 text-gold-glow tracking-widest">
             Emp Tools
           </h2>
           
-          <p className="text-lg md:text-xl text-gray-400 font-['Cormorant_Garamond'] italic mb-8">
+          <p className="text-lg md:text-xl text-gray-400 font-['Cormorant_Garamond'] italic mb-6">
             Download the ultimate tool for your arsenal
           </p>
 
